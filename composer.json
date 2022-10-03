@@ -1,0 +1,17 @@
+{
+  "name": "maatcode/maatcode-db",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "maatcode",
+      "email": "maatcode@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Maatcode\\Database\\": "src"
+    }
+  }
+}
