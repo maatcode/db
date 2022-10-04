@@ -13,5 +13,8 @@
     "psr-4": {
       "Maatcode\\Database\\": "src"
     }
+  },
+  "require": {
+    "laminas/laminas-db": "^2.15.0"
   }
 }
