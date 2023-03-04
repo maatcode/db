@@ -1,6 +1,7 @@
 <?php
+declare(strict_types=1);
 
-namespace Library\Database\Exception;
+namespace Maatcode\Db\Exception;
 
 interface ExceptionInterface
 {

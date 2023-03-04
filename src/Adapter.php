@@ -1,12 +1,21 @@
 <?php
+declare(strict_types=1);
 
 namespace Maatcode\Db;
 
 class Adapter
 {
-    protected $adapter;
+    /**
+     * @var mixed
+     */
+    protected mixed $adapter;
 
-    public function setAdapter ($adapter) {
+    /**
+     * @param $adapter
+     * @return void
+     */
+    public function setAdapter ($adapter): void
+    {
         $this->adapter = $adapter;
     }
 
